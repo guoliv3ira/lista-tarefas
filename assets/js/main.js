@@ -1,3 +1,13 @@
+//loadscreen
+window.addEventListener('load', () =>{
+    const loading = document.querySelector('.loading')
+    console.log(loading)
+setTimeout(()=>{
+loading.classList.add('hidden')
+}, 1000)
+})
+
+
 //pegar o input, botão e lista do html
 const inputTarefa = document.querySelector('.input-tarefa')
 const btnTarefa = document.querySelector('.btn-tarefa')
